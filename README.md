@@ -17,3 +17,24 @@ Game features:
 - Save world game state
 - Player profiles
 - Leveling / Stats / Combat
+
+# How to Play
+Start the game
+```
+...\Thesis\Run_Win32\Thesis.exe
+```
+Type in a username (your computer name is used by default if not provided), add a password if you want to protect your account.
+
+Press "Dedicated Server" to start a server (you won't be able to play)
+
+Press "Listen Server" to start a server (you will also be playing)
+
+Press "Join Server" to connect to the typed in IP Address (to player with others, you need to be connect via ethernet)
+
+# Controls
+
+[W/S/A/D] moves
+
+[Space] fires
+
+[Click/Drag] interact with the UI 
