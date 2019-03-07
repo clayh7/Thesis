@@ -1,7 +1,4 @@
 # Thesis
-Networked MMO ARPG
-
-# Thesis
 I made an networked MMO ARPG for my thesis.
 All of the code, art, and design was made by me.
 I made a Networking System with the following features:
