@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugInline|Win32">
+      <Configuration>DebugInline</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F8E773DE-4F53-46C9-8A73-B3C0E59556D3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Protogame</RootNamespace>
+    <ProjectName>Thesis</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+    <IncludePath>$(FBXSDK_DIR)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(FBXSDK_DIR)lib\vs2015\$(PlatformShortName)\debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)../;$(SolutionDir)Code/</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)../;$(SolutionDir)Code/</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y /F /I "$(TargetPath)" "$(SolutionDir)Run_$(Platform)"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copying $(TargetFileName) to Run_$(Platform)...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugInline|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)../;$(SolutionDir)Code/</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)../;$(SolutionDir)Code/</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y /F /I "$(TargetPath)" "$(SolutionDir)Run_$(Platform)"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copying $(TargetFileName) to Run_$(Platform)...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)../;$(SolutionDir)Code/</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)../;$(SolutionDir)Code/</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y /F /I "$(TargetPath)" "$(SolutionDir)Run_$(Platform)"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copying $(TargetFileName) to Run_$(Platform)...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="GameObjects\Allies\AllyShip.cpp" />
+    <ClCompile Include="GameObjects\Items\Item.cpp" />
+    <ClCompile Include="GameObjects\Player\Ship.cpp" />
+    <ClCompile Include="General\App.cpp" />
+    <ClCompile Include="General\Game.cpp" />
+    <ClCompile Include="GameObjects\Enemies\EnemyShip.cpp" />
+    <ClCompile Include="GameObjects\Other\Bullet.cpp" />
+    <ClCompile Include="GameObjects\Enemies\ShipSpawner.cpp" />
+    <ClCompile Include="GameObjects\Other\Emote.cpp" />
+    <ClCompile Include="GameObjects\GameObject.cpp" />
+    <ClCompile Include="GameObjects\NetGameObject.cpp" />
+    <ClCompile Include="GameObjects\Player\Player.cpp" />
+    <ClCompile Include="GameObjects\Player\PlayerShip.cpp" />
+    <ClCompile Include="GameObjects\Enemies\Rock.cpp" />
+    <ClCompile Include="General\GameCommon.cpp" />
+    <ClCompile Include="General\GameEventFunctions.cpp" />
+    <ClCompile Include="General\GameHostClientFunctions.cpp" />
+    <ClCompile Include="General\GameState.cpp" />
+    <ClCompile Include="General\NetMessageHandling.cpp" />
+    <ClCompile Include="General\SessionCommands.cpp" />
+    <ClCompile Include="GameObjects\Items\Pickup.cpp" />
+    <ClCompile Include="Main_Win32.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Engine\Engine.vcxproj">
+      <Project>{1ac8bd90-6803-41bd-95a0-ce98ea299c47}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObjects\Allies\AllyShip.hpp" />
+    <ClInclude Include="GameObjects\Items\Item.hpp" />
+    <ClInclude Include="GameObjects\Player\Ship.hpp" />
+    <ClInclude Include="General\App.hpp" />
+    <ClInclude Include="General\Game.hpp" />
+    <ClInclude Include="GameObjects\Enemies\EnemyShip.hpp" />
+    <ClInclude Include="GameObjects\Other\Bullet.hpp" />
+    <ClInclude Include="GameObjects\Enemies\ShipSpawner.hpp" />
+    <ClInclude Include="GameObjects\Other\Emote.hpp" />
+    <ClInclude Include="GameObjects\GameObject.hpp" />
+    <ClInclude Include="GameObjects\NetGameObject.hpp" />
+    <ClInclude Include="GameObjects\Player\Player.hpp" />
+    <ClInclude Include="GameObjects\Player\PlayerShip.hpp" />
+    <ClInclude Include="GameObjects\Enemies\Rock.hpp" />
+    <ClInclude Include="General\GameCommon.hpp" />
+    <ClInclude Include="General\GameState.hpp" />
+    <ClInclude Include="General\NetMessageHandling.hpp" />
+    <ClInclude Include="General\SessionCommands.hpp" />
+    <ClInclude Include="GameObjects\Items\Pickup.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Run_Win32\Data\Shaders\blinnPhong.frag" />
+    <None Include="..\..\Run_Win32\Data\Shaders\blinnPhong.vert" />
+    <None Include="..\..\Run_Win32\Data\Shaders\font.frag" />
+    <None Include="..\..\Run_Win32\Data\Shaders\font.vert" />
+    <None Include="..\..\Run_Win32\Data\Shaders\passthrough.frag" />
+    <None Include="..\..\Run_Win32\Data\Shaders\passthrough.vert" />
+    <None Include="..\..\Run_Win32\Data\Shaders\post.vert" />
+    <None Include="..\..\Run_Win32\Data\Shaders\postDark.frag" />
+    <None Include="..\..\Run_Win32\Data\Shaders\postNothing.frag" />
+    <None Include="..\..\Run_Win32\Data\Shaders\postWaves.frag" />
+    <None Include="..\..\Run_Win32\Data\Shaders\sprite.frag" />
+    <None Include="..\..\Run_Win32\Data\Shaders\sprite.vert" />
+    <None Include="..\..\Run_Win32\Data\Shaders\tangent.frag" />
+    <None Include="..\..\Run_Win32\Data\Shaders\tangent.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run_Win32\Data\Sprites\SpriteResources.Sprite.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\UI\ClassSelectScreen.UI.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\UI\CommunicationHUD.UI.xml" />
+    <Xml Include="..\..\Run_Win32\Data\UI\PlayerHUD.UI.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\UI\TargetingHUD.UI.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\UI\TitleScreen.UI.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Run_Win32\Data\Sprites\ThesisSpriteSheet.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

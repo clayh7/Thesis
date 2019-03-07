@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--UISystem>
+
+	<UIWidget name="communicationHUD">
+		<Dock value="left"/>
+		<Width value="300"/>
+			
+		<UIBox>
+			<Dock value="bottom"/>
+			<Height value="450"/>
+			<BorderSize value="0"/>
+			<BackgroundColor value="175,175,175,255"/>
+
+			<UILabel value="Communication">
+				<Dock value="top"/>
+			</UILabel>
+
+			<UIButton>
+				<Dock value="top"/>
+				<Height value="30"/>
+				<Text value="Hello"/>
+			</UIButton>
+
+			<UIButton>
+				<Dock value="top"/>
+				<Height value="30"/>
+				<Text value="Goodbye"/>
+			</UIButton>
+
+			<UIButton>
+				<Dock value="top"/>
+				<Height value="30"/>
+				<Text value="Sorry"/>
+			</UIButton>
+
+			<UIButton>
+				<Dock value="top"/>
+				<Height value="30"/>
+				<Text value="Threaten"/>
+			</UIButton>
+
+			<UIButton>
+				<Dock value="top"/>
+				<Height value="30"/>
+				<Text value="Help"/>
+			</UIButton>
+
+		</UIBox>
+		
+	</UIWidget>
+	
+</UISystem-->

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<UISystem>
+
+	<!-------------------------------------------------------------------------------------------->
+	<UIWidget name="playerHUD">
+		<Dock value="fill"/>
+		
+		<!-------------------------------------------------------------------------------------------->
+		<UIBox>
+			<Hidden value="false"/>
+			<Dock value="right"/>
+			<Width value="300"/>
+			<BorderSize value="0"/>
+			<BackgroundColor value="175,175,175,255"/>
+
+			<!-------------------------------------------------------------------------------------------->
+			<UIBox>
+				<Dock value="top"/>
+				<Height value="30"/>
+				<UILabel name="playerLevel">
+					<Dock value="left"/>
+					<Width value="50"/>
+					<Text value="LVL"/>
+					<TextColor value="0,0,0,255"/>
+					<BackgroundColor value="0,0,0,0"/>
+				</UILabel>
+				<UILabel name="playerName">
+					<Dock value="fill"/>
+					<Text value="Player Name"/>
+					<TextAlignment value="center"/>
+				</UILabel>
+			</UIBox>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--Class label-->
+			<UILabel name="classLabel">
+				<Dock value="top"/>
+				<Text value="Wizard"/>
+				<TextAlignment value="center"/>
+				<Height value="30"/>
+			</UILabel>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--HP Bar-->
+			<UIBox>
+				<Dock value="top"/>
+				<Height value="30"/>
+				<BackgroundColor value="0,0,0,0"/>
+
+				<!-------------------------------------------------------------------------------------------->
+				<UISprite>
+					<SpriteID value="heart"/>
+					<Dock value="left"/>
+					<Width value="30"/>
+				</UISprite>
+
+				<!-------------------------------------------------------------------------------------------->
+				<UIProgressBar name="playerHealth">
+					<BarFillDirection value="right"/>
+					<AmountBindEvent value="UpdatePlayerHealth"/>
+					<Dock value="fill"/>
+					<BorderSize value="-2"/>
+					<BarColor value="0,175,0,255"/>
+				</UIProgressBar>
+			</UIBox>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--Space-->
+			<UIBox>
+				<Hidden/>
+				<Dock value="top"/>
+				<Height value="5"/>
+			</UIBox>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--SP Bar-->
+			<UIBox>
+				<Dock value="top"/>
+				<Height value="30"/>
+				<BackgroundColor value="0,0,0,0"/>
+
+				<!-------------------------------------------------------------------------------------------->
+				<UISprite>
+					<SpriteID value="shield"/>
+					<Dock value="left"/>
+					<Width value="30"/>
+				</UISprite>
+
+				<!-------------------------------------------------------------------------------------------->
+				<UIProgressBar name="playerShield">
+					<BarFillDirection value="right"/>
+					<AmountBindEvent value="UpdatePlayerShield"/>
+					<Dock value="fill"/>
+					<BorderSize value="-2"/>
+					<BarColor value="0,0,175,255"/>
+				</UIProgressBar>
+			</UIBox>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--Space-->
+			<UIBox>
+				<Hidden/>
+				<Dock value="top"/>
+				<Height value="5"/>
+			</UIBox>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--Engery Bar-->
+			<UIBox>
+				<Dock value="top"/>
+				<Height value="30"/>
+				<BackgroundColor value="0,0,0,0"/>
+
+				<!-------------------------------------------------------------------------------------------->
+				<UISprite>
+					<SpriteID value="energy"/>
+					<Dock value="left"/>
+					<Width value="30"/>
+				</UISprite>
+
+				<!-------------------------------------------------------------------------------------------->
+				<UIProgressBar name="playerEnergy">
+					<BarFillDirection value="right"/>
+					<AmountBindEvent value="UpdatePlayerEnergy"/>
+					<Dock value="fill"/>
+					<BorderSize value="-2"/>
+					<BarColor value="175,175,0,255"/>
+				</UIProgressBar>
+			</UIBox>
+
+			<!-------------------------------------------------------------------------------------------->
+			<UILabel>
+				<Dock value="top"/>
+				<Text value="Inventory"/>
+				<TextAlignment value="center"/>
+				<Height value="30"/>
+			</UILabel>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--Inventory Grid-->
+			<UIContainer name="playerInventory">
+				<BackgroundColor value="128,128,128,255"/>
+				<Height value="192"/>
+				<Dock value="top"/>
+				<GridSize value="4,3"/>
+				<OnAddItem value="MoveItemToInventoryEvent"/>
+			</UIContainer>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--Money-->
+			<UIBox>
+				<Dock value="top"/>
+				<Height value="30"/>
+				<BackgroundColor value="0,0,0,0"/>
+
+				<!-------------------------------------------------------------------------------------------->
+				<UISprite>
+					<SpriteID value="cubes"/>
+					<Dock value="right"/>
+					<Width value="30"/>
+				</UISprite>
+
+				<!-------------------------------------------------------------------------------------------->
+				<UILabel name="playerMoney">
+					<Text value="100"/>
+					<TextAlignment value="right"/>
+					<TextColor value="0,0,0,255"/>
+					<Dock value="fill"/>
+					<BackgroundColor value="0,0,0,0"/>
+					<Height value="30"/>
+				</UILabel>
+			</UIBox>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--Equipment Grid-->
+			<UIWidget name="playerEquipment">
+				<Height value="64"/>
+				<Dock value="top"/>
+				<UIContainer name="equpimentPrimary">
+					<Dock value="left"/>
+					<Width value="64"/>
+					<BackgroundColor value="100,100,100,255"/>
+					<GridSize value="1,1"/>
+					<OnAddItem value="EquipPrimaryEvent"/>
+				</UIContainer>
+			</UIWidget>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--Space-->
+			<UIBox>
+				<Hidden/>
+				<Dock value="top"/>
+				<Height value="5"/>
+			</UIBox>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--Stat Bars-->
+			<UIBox>
+				<Dock value="top"/>
+				<Height value="120"/>
+				<BackgroundColor value="0,0,0,0"/>
+
+				<UIBox>
+					<Width value="100"/>
+					<Dock value="left"/>
+					<BackgroundColor value="0,0,0,0"/>
+				</UIBox>
+			
+				<UIProgressBar name="statHealth">
+					<BarFillDirection value="up"/>
+					<AmountBindEvent value="SetStatHealth"/>
+					<BorderSize value="0"/>
+					<Dock value="left"/>
+					<BarColor value="255,0,0,255"/>
+					<Width value="30"/>
+				</UIProgressBar>
+
+				<UIBox>
+					<Width value="10"/>
+					<Dock value="left"/>
+					<BackgroundColor value="0,0,0,0"/>
+				</UIBox>
+			
+				<UIProgressBar name="statShield">
+					<BarFillDirection value="up"/>
+					<AmountBindEvent value="SetStatShield"/>
+					<BorderSize value="0"/>
+					<Dock value="left"/>
+					<BarColor value="255,0,0,255"/>
+					<Width value="30"/>
+				</UIProgressBar>
+
+				<UIBox>
+					<Width value="10"/>
+					<Dock value="left"/>
+					<BackgroundColor value="0,0,0,0"/>
+				</UIBox>
+			
+				<UIProgressBar name="statEnergy">
+					<BarFillDirection value="up"/>
+					<AmountBindEvent value="SetStatEnergy"/>
+					<BorderSize value="0"/>
+					<Dock value="left"/>
+					<BarColor value="255,0,0,255"/>
+					<Width value="30"/>
+				</UIProgressBar>
+
+			</UIBox>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--Stat Bar Labels-->
+			<UIBox>
+				<Dock value="top"/>
+				<Height value="40"/>
+				<BackgroundColor value="0,0,0,0"/>
+
+				<UIBox>
+					<Width value="95"/>
+					<Dock value="left"/>
+					<BackgroundColor value="0,0,0,0"/>
+				</UIBox>
+			
+				<UILabel>
+					<Text value="HP"/>
+					<Dock value="left"/>
+					<Width value="40"/>
+				</UILabel>
+			
+				<UILabel>
+					<Text value="SP"/>
+					<Dock value="left"/>
+					<Width value="40"/>
+				</UILabel>
+
+				<UILabel>
+					<Text value="E"/>
+					<Dock value="left"/>
+					<Width value="40"/>
+				</UILabel>
+			</UIBox>
+			
+			
+			<!-------------------------------------------------------------------------------------------->
+			<!--Level Up Cost-->
+			<UIBox>
+				<Dock value="top"/>
+				<Height value="50"/>
+				<BackgroundColor value="0,0,0,0"/>
+
+				<UISprite>
+					<SpriteID value="cubes"/>
+					<Dock value="right"/>
+					<Width value="50"/>
+				</UISprite>
+
+				<UILabel name="upgradeCost">
+					<Text value="Cost 100"/>
+					<TextAlignment value="right"/>
+					<TextColor value="0,0,0,255"/>
+					<Dock value="fill"/>
+					<Height value="50"/>
+					<BackgroundColor value="0,0,0,0"/>
+				</UILabel>
+			</UIBox>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--Level Up Button-->
+			<UIButton name="upgradeHullButton">
+				<Text value="Upgrade Hull"/>
+				<Dock value="top"/>
+				<BorderSize value="-2"/>
+				<OnPressed value="UpgradeHullEvent"/>
+			</UIButton>
+
+			<UIButton name="upgradeHealthButton">
+				<Hidden/>
+				<Text value="Upgrade Health"/>
+				<BorderSize value="-2"/>
+				<OnPressed value="UpgradeHealthEvent"/>
+				<Offset value="0,-266"/>
+				<Width value ="300"/>
+				<Height value ="50"/>
+			</UIButton>
+
+			<UIButton name="upgradeShieldButton">
+				<Hidden/>
+				<Text value="Upgrade Shield"/>
+				<Dock value="top"/>
+				<BorderSize value="-2"/>
+				<OnPressed value="UpgradeShieldEvent"/>
+			</UIButton>
+
+			<UIButton name="upgradeEnergyButton">
+				<Hidden/>
+				<Text value="Upgrade Energy"/>
+				<Dock value="top"/>
+				<BorderSize value="-2"/>
+				<OnPressed value="UpgradeEnergyEvent"/>
+			</UIButton>
+		</UIBox>
+
+		<!--Left side padding-->
+		<UIBox>
+			<Dock value="left"/>
+			<Width value="300"/>
+			<BackgroundColor value="0,0,0,0"/>
+		</UIBox>
+		
+		<UILabel>
+			<Dock value="bottom"/>
+			<Text value="[Q] Lock On"/>
+			<TextAlignment value="left"/>
+		</UILabel>
+
+		<UILabel name="warpToCrystalInstructions">
+			<Offset value="370,-425"/>
+			<Text value="Warp to Crystal [E]"/>
+			<TextAlignment value="center"/>
+			<BackgroundColor value="0,0,0,0"/>
+		</UILabel>
+
+		<UILabel name="godModeText">
+			<Offset value="0,-375"/>
+			<Text value="God Mode"/>
+			<TextAlignment value="center"/>
+			<BackgroundColor value="0,0,0,0"/>
+		</UILabel>
+
+		<!-------------------------------------------------------------------------------------------->
+		<UIContainer name="worldContainer">
+			<Dock value="fill"/>
+			<BackgroundColor value="0,0,0,0"/>
+			<OnAddItem value="EjectItemEvent"/>
+		</UIContainer>
+
+		<!-------------------------------------------------------------------------------------------->
+		<!--Warp Bar-->
+		<UIProgressBar name="warpDrive">
+			<Hidden/>
+			<Offset value="0,300"/>
+			<UILabel>
+				<Offset value="0,-50"/>
+				<Text value="[Tab] Eject Last Item"/>
+				<BackgroundColor value="0,0,0,0"/>
+			</UILabel>
+		</UIProgressBar>
+
+
+		<!-------------------------------------------------------------------------------------------->
+		<!--Summoning Bar-->
+		<UIProgressBar name="summoningBar">
+			<Offset value="0,400"/>
+			<Width value="500"/>
+		</UIProgressBar>
+	</UIWidget>
+	
+	<!-------------------------------------------------------------------------------------------->
+	<!--Map Coords-->
+	<UILabel name="mapCoordinates">
+		<Anchor value="top-left"/>
+		<Width value="220"/>
+	</UILabel>
+</UISystem>

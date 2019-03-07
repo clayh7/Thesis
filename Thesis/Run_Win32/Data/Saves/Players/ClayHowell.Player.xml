@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PlayerData username="ClayHowell" password="0" loadFromFile="true" lastPosition="5.170178,-3.065419" lastRotation="330.486359" lastHealth="166">
+	<money value="0"/>
+	<level value="1"/>
+	<class value="0"/>
+	<statHP value="166"/>
+	<statShield value="25"/>
+	<statEnergy value="25"/>
+	<primaryWeapon value="1811"/>
+	<inventory/>
+</PlayerData>

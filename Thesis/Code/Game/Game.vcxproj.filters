@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Singletons">
+      <UniqueIdentifier>{f5581a2d-145a-4ccd-b5fb-9854ae8b1e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{6a31ec88-0af6-4054-a374-bf6cf37ba42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{92d64924-bf14-48ea-8aa5-fbc958684116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\UI">
+      <UniqueIdentifier>{a7cbfc68-7dfd-4639-a8cd-6058cf084480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders">
+      <UniqueIdentifier>{bdf8ae62-5dca-498c-a10b-c4d1a98161bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Sprites">
+      <UniqueIdentifier>{facac88c-07d9-49d1-a200-3acd621bf951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies">
+      <UniqueIdentifier>{dbc09e6a-872b-445e-8c68-cc17fb85fa02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Allies">
+      <UniqueIdentifier>{917fcbeb-6c50-47d2-b784-f7741a65b2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Player">
+      <UniqueIdentifier>{f395ac9e-f843-4dca-a875-b3f405dc5dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Other">
+      <UniqueIdentifier>{8b377b3e-13a5-415a-9fde-97534bb828f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Items">
+      <UniqueIdentifier>{e59f805a-71ab-4987-bc46-6126d254f687}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Win32.cpp">
+      <Filter>Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\NetGameObject.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\GameObject.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="General\GameCommon.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="General\GameHostClientFunctions.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="General\NetMessageHandling.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="General\SessionCommands.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="General\GameEventFunctions.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="General\App.cpp">
+      <Filter>Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="General\Game.cpp">
+      <Filter>Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Enemies\EnemyShip.cpp">
+      <Filter>GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Enemies\ShipSpawner.cpp">
+      <Filter>GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="General\GameState.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Allies\AllyShip.cpp">
+      <Filter>GameObjects\Allies</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Player\Player.cpp">
+      <Filter>GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Player\PlayerShip.cpp">
+      <Filter>GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Items\Item.cpp">
+      <Filter>GameObjects\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Other\Bullet.cpp">
+      <Filter>GameObjects\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Player\Ship.cpp">
+      <Filter>GameObjects\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Enemies\Rock.cpp">
+      <Filter>GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Items\Pickup.cpp">
+      <Filter>GameObjects\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Other\Emote.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObjects\NetGameObject.hpp">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\GameObject.hpp">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="General\GameCommon.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="General\NetMessageHandling.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="General\SessionCommands.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="General\App.hpp">
+      <Filter>Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="General\Game.hpp">
+      <Filter>Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Enemies\EnemyShip.hpp">
+      <Filter>GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Enemies\ShipSpawner.hpp">
+      <Filter>GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="General\GameState.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Allies\AllyShip.hpp">
+      <Filter>GameObjects\Allies</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Player\PlayerShip.hpp">
+      <Filter>GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Player\Player.hpp">
+      <Filter>GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Items\Item.hpp">
+      <Filter>GameObjects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Other\Bullet.hpp">
+      <Filter>GameObjects\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Player\Ship.hpp">
+      <Filter>GameObjects\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Enemies\Rock.hpp">
+      <Filter>GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Items\Pickup.hpp">
+      <Filter>GameObjects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Other\Emote.hpp">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Run_Win32\Data\Shaders\passthrough.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\passthrough.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\font.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\font.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\post.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\postNothing.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\postWaves.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\tangent.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\tangent.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\blinnPhong.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\blinnPhong.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\sprite.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\sprite.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\postDark.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run_Win32\Data\UI\TitleScreen.UI.xml">
+      <Filter>Data\UI</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\UI\ClassSelectScreen.UI.xml">
+      <Filter>Data\UI</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\UI\PlayerHUD.UI.xml">
+      <Filter>Data\UI</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\UI\TargetingHUD.UI.xml">
+      <Filter>Data\UI</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Sprites\SpriteResources.Sprite.xml">
+      <Filter>Data\Sprites</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\UI\CommunicationHUD.UI.xml">
+      <Filter>Data\UI</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Run_Win32\Data\Sprites\ThesisSpriteSheet.png">
+      <Filter>Data\Sprites</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

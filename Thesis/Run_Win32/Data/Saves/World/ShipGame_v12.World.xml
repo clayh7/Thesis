@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorldData>
+	<GameState summoningAmount="0"/>
+	<GameObjectSpawners>
+		<EnemySpawner id="1" isEnemy="true" type="2" level="10" max="1" position="0.000000,60.000000"/>
+		<EnemySpawner id="2" isEnemy="true" type="2" level="10" max="1" position="0.000000,-60.000000"/>
+		<EnemySpawner id="3" isEnemy="true" type="2" level="10" max="1" position="60.000000,0.000000"/>
+		<EnemySpawner id="4" isEnemy="true" type="2" level="10" max="1" position="-60.000000,0.000000"/>
+		<EnemySpawner id="5" isEnemy="true" type="1" level="1" max="2" position="0.000000,15.000000"/>
+		<EnemySpawner id="6" isEnemy="true" type="1" level="1" max="2" position="0.000000,-15.000000"/>
+		<EnemySpawner id="7" isEnemy="true" type="1" level="1" max="2" position="-15.000000,0.000000"/>
+		<EnemySpawner id="8" isEnemy="true" type="1" level="1" max="2" position="15.000000,0.000000"/>
+		<EnemySpawner id="9" isEnemy="true" type="1" level="2" max="2" position="15.000000,15.000000"/>
+		<EnemySpawner id="10" isEnemy="true" type="1" level="2" max="2" position="15.000000,-15.000000"/>
+		<EnemySpawner id="11" isEnemy="true" type="1" level="2" max="2" position="-15.000000,15.000000"/>
+		<EnemySpawner id="12" isEnemy="true" type="1" level="2" max="2" position="-15.000000,-15.000000"/>
+		<EnemySpawner id="13" isEnemy="true" type="1" level="3" max="2" position="0.000000,25.000000"/>
+		<EnemySpawner id="14" isEnemy="true" type="1" level="3" max="2" position="0.000000,-25.000000"/>
+		<EnemySpawner id="15" isEnemy="true" type="1" level="3" max="2" position="-25.000000,0.000000"/>
+		<EnemySpawner id="16" isEnemy="true" type="1" level="3" max="2" position="25.000000,0.000000"/>
+		<EnemySpawner id="17" isEnemy="true" type="1" level="4" max="2" position="25.000000,25.000000"/>
+		<EnemySpawner id="18" isEnemy="true" type="1" level="4" max="2" position="25.000000,-25.000000"/>
+		<EnemySpawner id="19" isEnemy="true" type="1" level="4" max="2" position="-25.000000,25.000000"/>
+		<EnemySpawner id="20" isEnemy="true" type="1" level="4" max="2" position="-25.000000,-25.000000"/>
+		<EnemySpawner id="21" isEnemy="true" type="1" level="5" max="4" position="0.000000,35.000000"/>
+		<EnemySpawner id="22" isEnemy="true" type="1" level="5" max="4" position="0.000000,-35.000000"/>
+		<EnemySpawner id="23" isEnemy="true" type="1" level="5" max="4" position="-35.000000,0.000000"/>
+		<EnemySpawner id="24" isEnemy="true" type="1" level="5" max="4" position="35.000000,0.000000"/>
+		<EnemySpawner id="25" isEnemy="true" type="1" level="6" max="2" position="35.000000,35.000000"/>
+		<EnemySpawner id="26" isEnemy="true" type="1" level="6" max="2" position="35.000000,-35.000000"/>
+		<EnemySpawner id="27" isEnemy="true" type="1" level="6" max="2" position="-35.000000,35.000000"/>
+		<EnemySpawner id="28" isEnemy="true" type="1" level="6" max="2" position="-35.000000,-35.000000"/>
+		<EnemySpawner id="29" isEnemy="true" type="1" level="7" max="2" position="0.000000,45.000000"/>
+		<EnemySpawner id="30" isEnemy="true" type="1" level="7" max="2" position="0.000000,-45.000000"/>
+		<EnemySpawner id="31" isEnemy="true" type="1" level="7" max="2" position="-45.000000,0.000000"/>
+		<EnemySpawner id="32" isEnemy="true" type="1" level="7" max="2" position="45.000000,0.000000"/>
+		<EnemySpawner id="33" isEnemy="true" type="1" level="8" max="2" position="45.000000,45.000000"/>
+		<EnemySpawner id="34" isEnemy="true" type="1" level="8" max="2" position="45.000000,-45.000000"/>
+		<EnemySpawner id="35" isEnemy="true" type="1" level="8" max="2" position="-45.000000,45.000000"/>
+		<EnemySpawner id="36" isEnemy="true" type="1" level="8" max="2" position="-45.000000,-45.000000"/>
+		<EnemySpawner id="37" isEnemy="true" type="1" level="9" max="2" position="0.000000,55.000000"/>
+		<EnemySpawner id="38" isEnemy="true" type="1" level="9" max="2" position="0.000000,-55.000000"/>
+		<EnemySpawner id="39" isEnemy="true" type="1" level="9" max="2" position="-55.000000,0.000000"/>
+		<EnemySpawner id="40" isEnemy="true" type="1" level="9" max="2" position="55.000000,0.000000"/>
+		<EnemySpawner id="41" isEnemy="false" type="1" level="10" max="3" position="0.000000,0.000000"/>
+	</GameObjectSpawners>
+	<GameObjects>
+		<AllyShip allyType="0" health="4990"/>
+		<Rock position="-5.869391,-33.407696" health="40"/>
+		<Rock position="8.958637,-43.637009" health="40"/>
+		<Rock position="-34.656090,5.542129" health="40"/>
+		<Rock position="-9.889744,7.806903" health="40"/>
+		<Rock position="-7.733958,-6.697267" health="40"/>
+		<Rock position="9.833555,5.294997" health="40"/>
+		<Rock position="-43.246696,-15.530063" health="40"/>
+		<Rock position="-20.972187,59.402134" health="40"/>
+		<Rock position="31.382055,35.027603" health="40"/>
+		<Rock position="54.649544,-6.474561" health="40"/>
+		<Rock position="-5.624139,-13.324243" health="40"/>
+		<Rock position="56.370411,47.008476" health="40"/>
+		<Rock position="-0.792714,17.285604" health="40"/>
+		<Rock position="-11.489456,-3.815162" health="40"/>
+		<Rock position="61.924114,-28.723248" health="40"/>
+		<Rock position="56.267113,-33.549446" health="40"/>
+		<Rock position="-10.403371,41.736248" health="40"/>
+		<Rock position="-64.081306,-38.042347" health="40"/>
+		<Rock position="63.240368,-3.094646" health="40"/>
+		<Rock position="24.223423,-27.394638" health="40"/>
+		<Rock position="-13.787545,1.030320" health="40"/>
+		<Rock position="1.370580,29.273046" health="40"/>
+		<Rock position="6.935052,-10.624247" health="40"/>
+		<Rock position="8.699376,-37.073769" health="40"/>
+		<Rock position="-5.396696,-14.929154" health="40"/>
+		<Rock position="-18.342737,-32.292801" health="40"/>
+		<Rock position="-14.140892,20.945278" health="40"/>
+		<Rock position="14.115496,-42.292152" health="40"/>
+		<Rock position="57.972519,-17.343267" health="40"/>
+		<Rock position="-8.224979,-7.460436" health="40"/>
+		<Rock position="25.395687,-23.437614" health="40"/>
+		<Rock position="31.128801,-8.988374" health="40"/>
+		<Rock position="14.711560,17.744947" health="40"/>
+		<Rock position="39.320930,22.765663" health="40"/>
+		<Rock position="17.194633,-2.506795" health="40"/>
+		<Rock position="32.437134,-48.525433" health="40"/>
+		<Rock position="-61.991760,-35.669571" health="40"/>
+		<Rock position="65.206886,-35.564354" health="40"/>
+		<Rock position="64.338951,-33.726536" health="40"/>
+		<Rock position="5.229895,58.373974" health="40"/>
+		<Rock position="-15.758660,-42.594940" health="40"/>
+		<Rock position="-20.010780,4.016303" health="40"/>
+		<Rock position="-8.346498,5.714580" health="40"/>
+		<Rock position="-21.161970,-63.852673" health="40"/>
+		<Rock position="-20.929918,-12.637832" health="40"/>
+		<Rock position="6.058282,12.658120" health="40"/>
+		<Rock position="42.362835,41.272274" health="40"/>
+		<Rock position="2.368604,15.089584" health="40"/>
+		<Rock position="-15.332831,-55.199799" health="40"/>
+		<Rock position="3.275643,51.385571" health="40"/>
+		<Rock position="-33.137383,17.370649" health="40"/>
+		<Rock position="11.661556,-15.097486" health="40"/>
+		<Rock position="-29.134762,8.424705" health="40"/>
+		<Rock position="22.681149,70.466850" health="40"/>
+		<Rock position="51.839844,-29.616877" health="40"/>
+		<Rock position="-12.575725,37.344639" health="40"/>
+		<Rock position="10.002399,-24.452385" health="40"/>
+		<Rock position="-38.300880,-26.450544" health="40"/>
+		<Rock position="43.541805,36.211452" health="40"/>
+		<Rock position="-26.361111,-14.364450" health="40"/>
+		<Rock position="52.116703,-12.651709" health="40"/>
+		<Rock position="-32.480900,-16.310499" health="40"/>
+		<Rock position="62.647923,9.759977" health="40"/>
+		<Rock position="47.578949,-25.525379" health="40"/>
+		<Rock position="-11.814974,-1.280450" health="40"/>
+		<Rock position="8.418465,-16.550398" health="40"/>
+		<Rock position="30.806726,-16.111273" health="40"/>
+		<Rock position="27.705088,44.313038" health="40"/>
+		<Rock position="-29.577898,-53.935192" health="40"/>
+		<Rock position="-49.509033,18.230341" health="40"/>
+		<Rock position="46.535702,52.688999" health="40"/>
+		<Rock position="2.931980,24.466673" health="40"/>
+		<Rock position="4.542453,-52.048252" health="40"/>
+		<Rock position="20.901661,74.582260" health="40"/>
+		<Rock position="-13.393494,-65.049034" health="40"/>
+		<Rock position="-36.130054,30.937141" health="40"/>
+		<Rock position="-37.166508,-45.163761" health="40"/>
+		<Rock position="-70.875160,20.303175" health="40"/>
+		<Rock position="-69.071838,-24.415915" health="40"/>
+		<Rock position="5.641442,25.816273" health="40"/>
+		<Rock position="13.824203,27.714933" health="40"/>
+		<Rock position="-41.425312,-21.141291" health="40"/>
+		<Rock position="-2.488798,54.269745" health="40"/>
+		<Rock position="-30.138384,17.157253" health="40"/>
+		<Rock position="-18.543230,-17.783871" health="40"/>
+		<Rock position="-49.746815,43.531250" health="40"/>
+		<Rock position="-47.537155,-52.530090" health="40"/>
+		<Rock position="31.778471,72.553085" health="40"/>
+		<Rock position="18.656693,-7.811807" health="40"/>
+		<Rock position="49.923210,-41.664459" health="40"/>
+		<Rock position="-5.262021,-9.393477" health="40"/>
+		<Rock position="-5.503766,-25.325920" health="40"/>
+		<Rock position="2.509577,-11.215893" health="40"/>
+		<Rock position="41.147835,-24.759678" health="40"/>
+		<Rock position="-22.646830,-2.987402" health="40"/>
+		<Rock position="15.277297,-65.729614" health="40"/>
+		<Rock position="39.137577,-7.030905" health="40"/>
+		<Rock position="15.533237,-26.108255" health="40"/>
+		<Rock position="18.288813,-55.611458" health="40"/>
+		<Rock position="25.985676,5.075699" health="40"/>
+		<Rock position="51.928955,24.438831" health="40"/>
+		<Rock position="13.199963,44.747120" health="40"/>
+		<Rock position="6.530385,19.742340" health="40"/>
+		<Rock position="-57.946468,-27.474659" health="40"/>
+		<Rock position="74.401329,21.963179" health="40"/>
+		<Rock position="-13.268489,14.190232" health="40"/>
+		<Rock position="40.000729,34.384655" health="40"/>
+		<Rock position="-38.075306,-45.162987" health="40"/>
+		<Rock position="31.798962,-29.088566" health="40"/>
+		<Rock position="38.129177,29.265289" health="40"/>
+		<Rock position="-6.594941,56.126015" health="40"/>
+		<Rock position="10.296154,34.585449" health="40"/>
+		<Rock position="12.572596,43.292519" health="40"/>
+		<Rock position="8.603828,66.905106" health="40"/>
+		<Rock position="-29.853594,42.475285" health="40"/>
+		<Rock position="-28.545137,-19.997501" health="40"/>
+		<Rock position="43.337055,-28.276680" health="40"/>
+		<Rock position="3.570228,66.672668" health="40"/>
+		<Rock position="-34.623768,-29.133345" health="40"/>
+		<Rock position="32.157406,36.592937" health="40"/>
+		<Rock position="9.672353,-56.319946" health="40"/>
+		<Rock position="25.812593,-11.341393" health="40"/>
+		<Rock position="-37.482506,-6.363253" health="40"/>
+		<Rock position="-0.832646,-33.396297" health="40"/>
+		<Rock position="14.875113,13.250038" health="40"/>
+		<Rock position="74.726059,12.155857" health="40"/>
+		<Rock position="-27.592285,22.644402" health="40"/>
+		<Rock position="-46.350670,-31.112146" health="40"/>
+		<Rock position="-8.283308,8.767308" health="40"/>
+		<Rock position="13.203716,-62.428482" health="40"/>
+		<Rock position="54.193462,-15.839807" health="40"/>
+		<Rock position="-6.322260,-21.863970" health="40"/>
+		<Rock position="-45.822067,-60.973751" health="40"/>
+		<Rock position="66.398682,22.076466" health="40"/>
+		<Rock position="-33.283123,-21.562336" health="40"/>
+		<Rock position="8.187645,-8.171961" health="40"/>
+		<Rock position="9.361062,-11.595665" health="40"/>
+		<Rock position="15.830612,74.425713" health="40"/>
+		<Rock position="49.482826,-48.617519" health="40"/>
+		<Rock position="-23.590906,30.240911" health="40"/>
+		<Rock position="24.896902,13.412197" health="40"/>
+		<Rock position="-18.221867,39.662212" health="40"/>
+		<Rock position="-10.533484,2.548527" health="40"/>
+		<Rock position="30.238194,4.095030" health="40"/>
+		<Rock position="25.552448,53.389057" health="40"/>
+		<Rock position="-54.381420,20.570948" health="40"/>
+		<Rock position="-8.847834,-68.387848" health="40"/>
+		<Rock position="53.870991,26.395226" health="40"/>
+		<Rock position="17.195234,53.004475" health="40"/>
+		<Rock position="45.380917,64.252594" health="40"/>
+		<Rock position="-24.599993,-14.356274" health="40"/>
+		<Rock position="67.720688,-38.948624" health="40"/>
+		<Rock position="31.406799,-2.110922" health="40"/>
+		<Rock position="-28.537039,31.376776" health="40"/>
+		<Rock position="19.430759,-3.698740" health="40"/>
+		<Rock position="24.879417,41.167927" health="40"/>
+		<Rock position="58.343086,-5.870567" health="40"/>
+		<Rock position="-18.910675,-23.937056" health="40"/>
+		<Rock position="75.559174,-12.276496" health="40"/>
+		<Rock position="10.730531,5.614468" health="40"/>
+		<Rock position="-27.068727,20.497017" health="40"/>
+		<Rock position="-71.127640,22.458109" health="40"/>
+		<Rock position="-18.769178,-32.750443" health="40"/>
+		<Rock position="4.303679,68.129890" health="40"/>
+		<Rock position="-31.848574,-6.081521" health="40"/>
+		<Rock position="-12.275496,-16.452478" health="40"/>
+		<Rock position="-53.900311,46.874584" health="40"/>
+		<Rock position="7.947542,11.143349" health="40"/>
+		<Rock position="68.324074,25.650570" health="40"/>
+		<Rock position="28.806616,-53.301910" health="40"/>
+		<Rock position="-13.731442,-29.455359" health="40"/>
+		<Rock position="10.012663,-21.727907" health="40"/>
+		<Rock position="-9.186934,-68.231033" health="40"/>
+		<Rock position="56.364647,-40.379433" health="40"/>
+		<Rock position="13.825923,19.954670" health="40"/>
+		<Rock position="11.850210,40.543671" health="40"/>
+		<Rock position="-10.074096,-15.089478" health="40"/>
+		<Rock position="76.032387,19.200134" health="40"/>
+		<Rock position="56.053547,31.640463" health="40"/>
+		<Rock position="40.996338,-54.705009" health="40"/>
+		<Rock position="11.699689,-4.796303" health="40"/>
+		<Rock position="-28.188255,69.864349" health="40"/>
+		<Rock position="22.635363,5.952072" health="40"/>
+		<Rock position="-27.186384,-1.628376" health="40"/>
+		<Rock position="-7.605969,35.724876" health="40"/>
+		<Rock position="-3.824483,11.547132" health="40"/>
+		<Rock position="-52.824757,-10.181460" health="40"/>
+		<Rock position="1.539505,-57.747730" health="40"/>
+		<Rock position="-29.214603,-34.384411" health="40"/>
+		<Rock position="-2.064013,-24.239983" health="40"/>
+		<Rock position="-31.381657,-22.272936" health="40"/>
+		<Rock position="-23.074440,-21.567318" health="40"/>
+		<Rock position="15.742939,-40.718956" health="40"/>
+		<Rock position="14.683593,12.582909" health="40"/>
+		<Rock position="-19.245510,4.078161" health="40"/>
+		<EnemyShip 	enemyType="2"
+						enemyLevel="10"
+						position="0.000000,60.000000"
+						velocity="0.000000,0.000000"
+						rotation="102.072601"
+						health="275"
+						shield="250"
+						energy="50"
+						spawnerID="1"/>
+		<EnemyShip 	enemyType="2"
+						enemyLevel="10"
+						position="0.000000,-60.000000"
+						velocity="0.000000,0.000000"
+						rotation="102.072601"
+						health="275"
+						shield="250"
+						energy="50"
+						spawnerID="2"/>
+		<EnemyShip 	enemyType="2"
+						enemyLevel="10"
+						position="60.000000,0.000000"
+						velocity="0.000000,0.000000"
+						rotation="102.072601"
+						health="275"
+						shield="250"
+						energy="50"
+						spawnerID="3"/>
+		<EnemyShip 	enemyType="2"
+						enemyLevel="10"
+						position="-60.000000,0.000000"
+						velocity="0.000000,0.000000"
+						rotation="102.072601"
+						health="275"
+						shield="250"
+						energy="50"
+						spawnerID="4"/>
+		<EnemyShip enemyType="1" enemyLevel="1" position="1.992925,18.966204" velocity="0.246989,0.969016" rotation="75.701515" health="95" shield="70" energy="50" spawnerID="5"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="1"
+						position="-0.795856,-17.610798"
+						velocity="-0.995014,-0.079630"
+						rotation="184.122086"
+						health="95"
+						shield="70"
+						energy="50"
+						spawnerID="6"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="1"
+						position="-14.053041,-4.042368"
+						velocity="-0.117406,-0.993074"
+						rotation="263.253876"
+						health="95"
+						shield="70"
+						energy="50"
+						spawnerID="7"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="1"
+						position="14.203126,-2.555773"
+						velocity="-0.996041,-0.056317"
+						rotation="183.229263"
+						health="95"
+						shield="35"
+						energy="50"
+						spawnerID="8"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="2"
+						position="16.501190,10.949910"
+						velocity="0.082978,-0.996547"
+						rotation="274.757965"
+						health="115"
+						shield="90"
+						energy="50"
+						spawnerID="9"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="2"
+						position="17.035095,-11.044931"
+						velocity="0.260540,0.965460"
+						rotation="74.898743"
+						health="115"
+						shield="90"
+						energy="50"
+						spawnerID="10"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="2"
+						position="-15.659945,18.056459"
+						velocity="-0.884753,0.465230"
+						rotation="152.370270"
+						health="115"
+						shield="90"
+						energy="50"
+						spawnerID="11"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="2"
+						position="-11.140783,-12.277829"
+						velocity="0.782338,0.622854"
+						rotation="38.524925"
+						health="115"
+						shield="51"
+						energy="50"
+						spawnerID="12"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="3"
+						position="0.214031,28.841215"
+						velocity="-0.417493,0.908645"
+						rotation="114.688103"
+						health="135"
+						shield="110"
+						energy="50"
+						spawnerID="13"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="3"
+						position="-0.783583,-27.402740"
+						velocity="-0.974866,0.197555"
+						rotation="167.242981"
+						health="135"
+						shield="110"
+						energy="50"
+						spawnerID="14"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="3"
+						position="-25.426409,3.384386"
+						velocity="-0.737725,0.674886"
+						rotation="137.590698"
+						health="135"
+						shield="110"
+						energy="50"
+						spawnerID="15"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="3"
+						position="26.463242,4.053062"
+						velocity="0.069836,0.997553"
+						rotation="85.997200"
+						health="135"
+						shield="110"
+						energy="50"
+						spawnerID="16"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="4"
+						position="24.629030,28.442019"
+						velocity="-0.706331,0.707709"
+						rotation="134.981369"
+						health="155"
+						shield="130"
+						energy="50"
+						spawnerID="17"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="4"
+						position="29.636278,-23.866085"
+						velocity="0.969452,0.245276"
+						rotation="14.198148"
+						health="155"
+						shield="130"
+						energy="50"
+						spawnerID="18"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="4"
+						position="-25.253496,28.549009"
+						velocity="-0.642799,0.765920"
+						rotation="130.032639"
+						health="155"
+						shield="130"
+						energy="50"
+						spawnerID="19"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="4"
+						position="-20.430946,-23.628067"
+						velocity="0.954243,0.299028"
+						rotation="17.399220"
+						health="155"
+						shield="130"
+						energy="50"
+						spawnerID="20"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="5"
+						position="0.044094,38.754498"
+						velocity="-0.495303,0.868670"
+						rotation="119.705872"
+						health="175"
+						shield="150"
+						energy="50"
+						spawnerID="21"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="5"
+						position="-0.609332,-31.855341"
+						velocity="-0.850135,0.526002"
+						rotation="148.337463"
+						health="175"
+						shield="150"
+						energy="50"
+						spawnerID="22"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="5"
+						position="-31.142883,-2.724805"
+						velocity="0.781805,-0.623523"
+						rotation="321.426086"
+						health="175"
+						shield="150"
+						energy="50"
+						spawnerID="23"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="5"
+						position="39.167587,2.274711"
+						velocity="0.859291,0.511486"
+						rotation="30.762892"
+						health="175"
+						shield="150"
+						energy="50"
+						spawnerID="24"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="6"
+						position="34.202381,32.485859"
+						velocity="-0.996607,0.034428"
+						rotation="177.330048"
+						health="195"
+						shield="170"
+						energy="50"
+						spawnerID="25"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="6"
+						position="34.248585,-32.162453"
+						velocity="-0.954374,0.296002"
+						rotation="162.973633"
+						health="195"
+						shield="170"
+						energy="50"
+						spawnerID="26"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="6"
+						position="-34.863594,31.196104"
+						velocity="-0.452560,-0.891693"
+						rotation="243.078430"
+						health="195"
+						shield="170"
+						energy="50"
+						spawnerID="27"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="6"
+						position="-33.012608,-38.967625"
+						velocity="0.245210,-0.969467"
+						rotation="284.193329"
+						health="195"
+						shield="170"
+						energy="50"
+						spawnerID="28"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="7"
+						position="4.508019,43.447018"
+						velocity="0.940243,-0.340502"
+						rotation="340.092621"
+						health="215"
+						shield="190"
+						energy="50"
+						spawnerID="29"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="7"
+						position="3.490717,-41.875870"
+						velocity="0.686172,0.727438"
+						rotation="46.672256"
+						health="215"
+						shield="190"
+						energy="50"
+						spawnerID="30"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="7"
+						position="-43.341476,-4.032405"
+						velocity="0.136724,-0.990606"
+						rotation="277.856842"
+						health="215"
+						shield="190"
+						energy="50"
+						spawnerID="31"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="7"
+						position="47.212505,-3.901260"
+						velocity="0.316679,-0.948531"
+						rotation="288.461456"
+						health="215"
+						shield="190"
+						energy="50"
+						spawnerID="32"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="8"
+						position="47.183342,48.910866"
+						velocity="0.307563,0.951526"
+						rotation="72.088272"
+						health="235"
+						shield="210"
+						energy="50"
+						spawnerID="33"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="8"
+						position="44.204487,-47.614956"
+						velocity="-0.994673,-0.084143"
+						rotation="184.389236"
+						health="235"
+						shield="210"
+						energy="50"
+						spawnerID="34"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="8"
+						position="-42.300674,48.692677"
+						velocity="0.464313,0.885670"
+						rotation="62.334560"
+						health="235"
+						shield="210"
+						energy="50"
+						spawnerID="35"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="8"
+						position="-42.066914,-41.442249"
+						velocity="0.532089,0.846687"
+						rotation="57.853596"
+						health="235"
+						shield="210"
+						energy="50"
+						spawnerID="36"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="9"
+						position="-0.607329,58.147884"
+						velocity="-0.848804,0.528152"
+						rotation="148.191727"
+						health="255"
+						shield="230"
+						energy="50"
+						spawnerID="37"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="9"
+						position="0.471520,-51.059414"
+						velocity="-0.306345,0.951900"
+						rotation="107.846603"
+						health="255"
+						shield="230"
+						energy="50"
+						spawnerID="38"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="9"
+						position="-52.779182,3.898453"
+						velocity="0.319280,0.947658"
+						rotation="71.381226"
+						health="255"
+						shield="230"
+						energy="50"
+						spawnerID="39"/>
+		<EnemyShip 	enemyType="1"
+						enemyLevel="9"
+						position="54.856598,3.634435"
+						velocity="-0.586257,0.810042"
+						rotation="125.916115"
+						health="255"
+						shield="230"
+						energy="50"
+						spawnerID="40"/>
+		<AllyShip allyType="1" position="-0.785194,-2.410282" velocity="-0.977297,0.186388" rotation="167.893555" health="200" shield="100" energy="50" spawnerID="41"/>
+		<Rock position="3.963927,-59.659718" health="40"/>
+		<Pickup position="15.027326,-14.400882" itemCode="257"/>
+		<Rock position="28.623657,19.141598" health="40"/>
+		<Pickup position="0.530941,-17.631168" itemCode="259"/>
+		<Rock position="16.514132,41.386852" health="40"/>
+		<Pickup position="9.538655,-5.269098" itemCode="260"/>
+		<Rock position="16.677263,22.174105" health="40"/>
+		<Pickup position="-11.655191,-11.610580" itemCode="260"/>
+		<Rock position="-0.893767,-16.168247" health="40"/>
+		<Pickup position="13.398317,-2.579729" itemCode="257"/>
+	</GameObjects>
+</WorldData>

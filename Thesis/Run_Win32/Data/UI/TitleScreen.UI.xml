@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<UISystem>
+	<!--Dedicated Server Label-->
+	<UILabel name="dedicatedServerLabel">
+		<Text value="DEDICATED SERVER"/>
+		<Offset value="0,425"/>
+		<Width value ="350"/>
+	</UILabel>
+	
+	<!-------------------------------------------------------------------------------------------->
+	<!--DEBUG-->
+	<UIWidget name="debug">
+		<Anchor value="top-left"/>
+
+		<!--Connection 1-->
+		<UILabel name="connection1">
+			<Anchor value="top-left"/>
+			<Offset value="100,-50"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 2-->
+		<UILabel name="connection2">
+			<Anchor value="top-left"/>
+			<Offset value="100,-100"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 3-->
+		<UILabel name="connection3">
+			<Anchor value="top-left"/>
+			<Offset value="100,-150"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 4-->
+		<UILabel name="connection4">
+			<Anchor value="top-left"/>
+			<Offset value="100,-200"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 5-->
+		<UILabel name="connection5">
+			<Anchor value="top-left"/>
+			<Offset value="100,-250"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 6-->
+		<UILabel name="connection6">
+			<Anchor value="top-left"/>
+			<Offset value="100,-300"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 7-->
+		<UILabel name="connection7">
+			<Anchor value="top-left"/>
+			<Offset value="100,-350"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 8-->
+		<UILabel name="connection8">
+			<Anchor value="top-left"/>
+			<Offset value="100,-400"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 9-->
+		<UILabel name="connection9">
+			<Anchor value="top-left"/>
+			<Offset value="100,-450"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 10-->
+		<UILabel name="connection10">
+			<Anchor value="top-left"/>
+			<Offset value="100,-500"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 11-->
+		<UILabel name="connection11">
+			<Anchor value="top-left"/>
+			<Offset value="100,-550"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 12-->
+		<UILabel name="connection12">
+			<Anchor value="top-left"/>
+			<Offset value="100,-600"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 13-->
+		<UILabel name="connection13">
+			<Anchor value="top-left"/>
+			<Offset value="100,-650"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 14-->
+		<UILabel name="connection14">
+			<Anchor value="top-left"/>
+			<Offset value="100,-700"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 15-->
+		<UILabel name="connection15">
+			<Anchor value="top-left"/>
+			<Offset value="100,-750"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 16-->
+		<UILabel name="connection16">
+			<Anchor value="top-left"/>
+			<Offset value="100,-800"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+
+		<!-------------------------------------------------------------------------------------------->
+		<!--Connection 17-->
+		<UILabel name="connection17">
+			<Anchor value="top-left"/>
+			<Offset value="800,-50"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 18-->
+		<UILabel name="connection18">
+			<Anchor value="top-left"/>
+			<Offset value="800,-100"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 19-->
+		<UILabel name="connection19">
+			<Anchor value="top-left"/>
+			<Offset value="800,-150"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 20-->
+		<UILabel name="connection20">
+			<Anchor value="top-left"/>
+			<Offset value="800,-200"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 21-->
+		<UILabel name="connection21">
+			<Anchor value="top-left"/>
+			<Offset value="800,-250"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 22-->
+		<UILabel name="connection22">
+			<Anchor value="top-left"/>
+			<Offset value="800,-300"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 23-->
+		<UILabel name="connection23">
+			<Anchor value="top-left"/>
+			<Offset value="800,-350"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 24-->
+		<UILabel name="connection24">
+			<Anchor value="top-left"/>
+			<Offset value="800,-400"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 25-->
+		<UILabel name="connection25">
+			<Anchor value="top-left"/>
+			<Offset value="800,-450"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 26-->
+		<UILabel name="connection26">
+			<Anchor value="top-left"/>
+			<Offset value="800,-500"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 27-->
+		<UILabel name="connection27">
+			<Anchor value="top-left"/>
+			<Offset value="800,-550"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 28-->
+		<UILabel name="connection28">
+			<Anchor value="top-left"/>
+			<Offset value="800,-600"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 29-->
+		<UILabel name="connection29">
+			<Anchor value="top-left"/>
+			<Offset value="800,-650"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 30-->
+		<UILabel name="connection30">
+			<Anchor value="top-left"/>
+			<Offset value="800,-700"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 31-->
+		<UILabel name="connection31">
+			<Anchor value="top-left"/>
+			<Offset value="800,-750"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+		<!--Connection 32-->
+		<UILabel name="connection32">
+			<Anchor value="top-left"/>
+			<Offset value="800,-800"/>
+			<Width value="700"/>
+			<Text value=""/>
+			<TextAlignment value="left"/>
+		</UILabel>
+	</UIWidget>
+	
+	<UIWidget name="titleScreen">
+		<UIBox>
+			<Width value="1600"/>
+			<Height value="900"/>
+			<BackgroundColor value="0,0,0,255"/>
+		</UIBox>
+		
+		<!-------------------------------------------------------------------------------------------->
+		<UIButton name="dedicatedHostButton">
+			<Text value="Dedicated Server"/>
+			<OnPressed value="DedicatedHostEvent"/>
+			<Offset value="0,220"/>
+			<Width value="300"/>
+			<Sound value="ui_highlighted.wav" state="highlighted"/>
+			<Sound value="ui_pressed.wav" state="pressed"/>
+		</UIButton>
+
+
+		<!-------------------------------------------------------------------------------------------->
+		<UITextField name="usernameField">
+			<Hint value="Username"/>
+			<Offset value="0,160"/>
+			<SelectedColor value="0,128,0,255"/>
+			<Width value="300"/>
+		</UITextField>
+
+		<!-------------------------------------------------------------------------------------------->
+		<UITextField name="passwordField">
+			<Password/>
+			<Hint value="Password"/>
+			<Offset value="0,100"/>
+			<SelectedColor value="0,128,0,255"/>
+			<Width value="300"/>
+		</UITextField>
+
+		<!-------------------------------------------------------------------------------------------->
+		<UIButton name="hostButton">
+			<Text value="Listen Server"/>
+			<OnPressed value="HostGameEvent"/>
+			<Offset value="0,0"/>
+			<Width value="300"/>
+			<Sound value="ui_highlighted.wav" state="highlighted"/>
+			<Sound value="ui_pressed.wav" state="pressed"/>
+		</UIButton>
+
+		<!-------------------------------------------------------------------------------------------->
+		<UITextField name="addressField">
+			<Hint value="IP Address..."/>
+			<Offset value="0,-100"/>
+			<SelectedColor value="0,128,0,255"/>
+			<Width value="300"/>
+		</UITextField>
+
+		<!-------------------------------------------------------------------------------------------->
+		<UIButton name="joinButton">
+			<Text value="Join Server"/>
+			<OnPressed value="JoinGameEvent"/>
+			<Offset value="0,-160"/>
+			<Width value="300"/>
+			<Sound value="ui_highlighted.wav" state="highlighted"/>
+			<Sound value="ui_pressed.wav" state="pressed"/>
+		</UIButton>
+
+		<!-------------------------------------------------------------------------------------------->
+		<UILabel name="invalidPassword">
+			<Text value="WRONG PASSWORD"/>
+			<TextColor value="255,0,0,255"/>
+			<Offset value="0,-220"/>
+			<Width value="300"/>
+		</UILabel>
+	</UIWidget>
+	
+	<!-------------------------------------------------------------------------------------------->
+	<!--Game Over Screen-->
+		
+	<UIBox name="crystalDestroyedOverlay">
+		<Hidden/>
+		<Width value="1600"/>
+		<Height value="900"/>
+		<BackgroundColor value="0,0,0,255"/>
+		<UILabel>
+			<Text value="THE CRYSTAL WAS DESTROYED"/>
+		</UILabel>
+	</UIBox>
+</UISystem>

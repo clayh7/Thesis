@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<UISystem>
+
+	<UIWidget name="targetingHUD">
+		<Dock value="left"/>
+		<Width value="300"/>
+			
+		<!-------------------------------------------------------------------------------------------->
+		<UIBox>
+			<!--This is supposed to be dock top, but something is messed up-->
+			<Dock value="bottom"/>
+			<Height value="450"/>
+			<BorderSize value="0"/>
+			<BackgroundColor value="175,175,175,255"/>
+
+			<!-------------------------------------------------------------------------------------------->
+			<UIBox>
+				<Dock value="top"/>
+				<Height value="30"/>
+				<UILabel name="targetLevel">
+					<Dock value="left"/>
+					<Width value="50"/>
+					<Text value="LVL"/>
+					<TextAlignment value="center"/>
+					<TextColor value="0,0,0,255"/>
+					<BackgroundColor value="0,0,0,0"/>
+				</UILabel>
+				<UILabel name="targetName">
+					<Dock value="fill"/>
+					<Text value="Player Name"/>
+					<TextAlignment value="center"/>
+				</UILabel>
+			</UIBox>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--HP Bar-->
+			<UIBox>
+				<Dock value="top"/>
+				<Height value="30"/>
+				<BackgroundColor value="0,0,0,0"/>
+
+				<!-------------------------------------------------------------------------------------------->
+				<UISprite>
+					<SpriteID value="heart"/>
+					<Dock value="left"/>
+					<Width value="30"/>
+				</UISprite>
+
+				<!-------------------------------------------------------------------------------------------->
+				<UIProgressBar name="targetHealth">
+					<BarFillDirection value="right"/>
+					<AmountBindEvent value="UpdatePlayerHealth"/>
+					<Dock value="fill"/>
+					<BorderSize value="-2"/>
+					<BarColor value="0,175,0,255"/>
+				</UIProgressBar>
+			</UIBox>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--Space-->
+			<UIBox>
+				<Hidden/>
+				<Dock value="top"/>
+				<Height value="5"/>
+			</UIBox>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--SP Bar-->
+			<UIBox>
+				<Dock value="top"/>
+				<Height value="30"/>
+				<BackgroundColor value="0,0,0,0"/>
+
+				<!-------------------------------------------------------------------------------------------->
+				<UISprite>
+					<SpriteID value="shield"/>
+					<Dock value="left"/>
+					<Width value="30"/>
+				</UISprite>
+
+				<!-------------------------------------------------------------------------------------------->
+				<UIProgressBar name="targetShield">
+					<BarFillDirection value="right"/>
+					<AmountBindEvent value="UpdatePlayerShield"/>
+					<Dock value="fill"/>
+					<BorderSize value="-2"/>
+					<BarColor value="0,0,175,255"/>
+				</UIProgressBar>
+			</UIBox>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--Space-->
+			<UIBox>
+				<Hidden/>
+				<Dock value="top"/>
+				<Height value="5"/>
+			</UIBox>
+
+			<!-------------------------------------------------------------------------------------------->
+			<!--Engery Bar-->
+			<UIBox>
+				<Dock value="top"/>
+				<Height value="30"/>
+				<BackgroundColor value="0,0,0,0"/>
+
+				<!-------------------------------------------------------------------------------------------->
+				<UISprite>
+					<SpriteID value="energy"/>
+					<Dock value="left"/>
+					<Width value="30"/>
+				</UISprite>
+
+				<!-------------------------------------------------------------------------------------------->
+				<UIProgressBar name="targetEnergy">
+					<BarFillDirection value="right"/>
+					<AmountBindEvent value="UpdatePlayerEnergy"/>
+					<Dock value="fill"/>
+					<BorderSize value="-2"/>
+					<BarColor value="175,175,0,255"/>
+				</UIProgressBar>
+			</UIBox>
+
+			<!-------------------------------------------------------------------------------------------->
+			<UILabel name="targetInfo1">
+				<Dock value="top"/>
+				<TextAlignment value="left"/>
+				<Text value="Information 1"/>
+				<Height value="30"/>
+			</UILabel>
+
+			<!-------------------------------------------------------------------------------------------->
+			<UILabel name="targetInfo2">
+				<Dock value="top"/>
+				<TextAlignment value="left"/>
+				<Text value="Information 2"/>
+				<Height value="30"/>
+			</UILabel>
+
+			<!-------------------------------------------------------------------------------------------->
+			<UILabel name="targetInfo3">
+				<Dock value="top"/>
+				<TextAlignment value="left"/>
+				<Text value="Information 3"/>
+				<Height value="30"/>
+			</UILabel>
+
+			<!-------------------------------------------------------------------------------------------->
+			<UILabel name="targetInfo4">
+				<Dock value="top"/>
+				<TextAlignment value="left"/>
+				<Text value="Information 4"/>
+				<Height value="30"/>
+			</UILabel>
+
+			<!------------------------------------------------------------------------->
+			<UIButton name="feedCrystalButton">
+				<BorderSize value="-2"/>
+				<Dock value="bottom"/>
+				<Height value="40"/>
+				<Text value="Pay to Heal [F]"/>
+				<OnPressed value="FeedCrystalEvent"/>
+				<Sound value="game_highlighted.wav" state="highlighted"/>
+			</UIButton>
+
+			<!------------------------------------------------------------------------->
+			<UILabel name="feedCrystalLabel">
+				<Dock value="bottom"/>
+				<Text value="Give Crystal 10 Cubes"/>
+			</UILabel>
+		</UIBox>
+		
+		<!----------------------------------------------------------------------------->
+		<UIBox>
+			<Dock value="top"/>
+			<Height value="200"/>
+			<BorderSize value="0"/>
+			<BackgroundColor value="175,175,175,255"/>
+
+			<UILabel>
+				<Dock value="top"/>
+				<Text value="Communication"/>
+			</UILabel>
+
+			<!------------------------------------------------------------------------->
+			<UIButton>
+				<BorderSize value="-2"/>
+				<Dock value="top"/>
+				<Height value="40"/>
+				<Text value="Happy [1]"/>
+				<OnPressed value="EmoteHappyEvent"/>
+				<Sound value="game_highlighted.wav" state="highlighted"/>
+			</UIButton>
+
+			<!------------------------------------------------------------------------->
+			<UIButton>
+				<BorderSize value="-2"/>
+				<Dock value="top"/>
+				<Height value="40"/>
+				<Text value="Sad [2]"/>
+				<OnPressed value="EmoteSadEvent"/>
+				<Sound value="game_highlighted.wav" state="highlighted"/>
+			</UIButton>
+
+			<!------------------------------------------------------------------------->
+			<UIButton>
+				<BorderSize value="-2"/>
+				<Dock value="top"/>
+				<Height value="40"/>
+				<Text value="Angry [3]"/>
+				<OnPressed value="EmoteAngryEvent"/>
+				<Sound value="game_highlighted.wav" state="highlighted"/>
+			</UIButton>
+
+			<!------------------------------------------------------------------------->
+			<UIButton>
+				<BorderSize value="-2"/>
+				<Dock value="top"/>
+				<Height value="40"/>
+				<Text value="Whoops [4]"/>
+				<OnPressed value="EmoteWhoopsEvent"/>
+				<Sound value="game_highlighted.wav" state="highlighted"/>
+			</UIButton>
+
+			<!------------------------------------------------------------------------->
+			<UIButton>
+				<BorderSize value="-2"/>
+				<Dock value="top"/>
+				<Height value="40"/>
+				<Text value="Help [5]"/>
+				<OnPressed value="EmoteHelpEvent"/>
+				<Sound value="game_highlighted.wav" state="highlighted"/>
+			</UIButton>
+
+		</UIBox>
+		
+	</UIWidget>
+	
+</UISystem>

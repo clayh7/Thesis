@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<UISystem>
+	<UIWidget name="classSelectScreen">
+		<Hidden value="true"/>
+
+		<UIBox name="classSelectBackground">
+			<Width value="1600"/>
+			<Height value="900"/>
+			<BackgroundColor value="0,0,0,255"/>
+		</UIBox>
+
+		<UISprite>
+			<SpriteID value="ring"/>
+			<Width value="500"/>
+			<Height value="500"/>
+		</UISprite>
+
+		<!-------------------------------------------------------------------------------------------->
+		<UIButton name="fighterClassButton">
+			<Text value="Fighter"/>
+			<OnPressed value="ChooseFighterEvent"/>
+			<Offset value="0,235"/>
+			<Width value="150"/>
+			<BackgroundColor value="255,0,0,255" state="highlighted"/>
+			<BackgroundColor value="128,0,0,255" state="pressed"/>
+		</UIButton>
+
+		<!-------------------------------------------------------------------------------------------->
+		<UIButton name="wizardClassButton">
+			<Text value="Wizard"/>
+			<OnPressed value="ChooseWizardEvent"/>
+			<Offset value="-200,-120"/>
+			<Width value="150"/>
+			<BackgroundColor value="0,0,255,255" state="highlighted"/>
+			<BackgroundColor value="0,0,128,255" state="pressed"/>
+		</UIButton>
+
+		<!-------------------------------------------------------------------------------------------->
+		<UIButton name="rogueClassButton">
+			<Text value="Rogue"/>
+			<OnPressed value="ChooseRogueEvent"/>
+			<Offset value="200,-120"/>
+			<Width value="150"/>
+			<BackgroundColor value="0,255,0,255" state="highlighted"/>
+			<BackgroundColor value="0,128,0,255" state="pressed"/>
+		</UIButton>
+
+		<!-------------------------------------------------------------------------------------------->
+		<UIButton name="cultistClassButton">
+			<Text value="Cultist"/>
+			<OnPressed value="ChooseCultistEvent"/>
+			<Offset value="0,10"/>
+			<Width value="150"/>
+			<BackgroundColor value="128,128,128,255" state="highlighted"/>
+			<BackgroundColor value="50,50,50,255" state="pressed"/>
+		</UIButton>
+
+	</UIWidget>
+</UISystem>

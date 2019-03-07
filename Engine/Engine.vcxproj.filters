@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{264b13a4-adaa-4dba-8138-8a71f6a95d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{f9975c83-0a31-497e-96d3-dbb25eabcd45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputSystem">
+      <UniqueIdentifier>{919e87f0-a5b8-428c-94d0-e705e4f9a68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AudioSystem">
+      <UniqueIdentifier>{afbf2191-9240-4e4f-8ba4-53cd3b91d790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{95205aca-536d-49e3-b19a-3621538d9af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\stb">
+      <UniqueIdentifier>{7898887d-0dc3-426b-97d2-fd91fd8f3308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\fmod">
+      <UniqueIdentifier>{453fdb10-afd0-4338-9d42-762a58e8eaf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\OpenGL">
+      <UniqueIdentifier>{8fc40763-0ab8-4fce-aa9d-b13c53cc9112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem">
+      <UniqueIdentifier>{03a889f1-5f59-497c-8ab5-f73275423d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugSystem">
+      <UniqueIdentifier>{f2e1b8af-d0ce-4fb5-a41e-ce6b04c6909d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Parsers">
+      <UniqueIdentifier>{12652d63-0183-4655-8379-bd108ae2cda8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{ce1178e2-9e4d-4303-908d-e3dc90175f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vectors">
+      <UniqueIdentifier>{d2a12ff9-ff8a-4f14-a1ef-03d10cb131be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threads">
+      <UniqueIdentifier>{c0334db8-080f-4fd5-b7f6-5177a47bc1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\SpriteRenderSystem">
+      <UniqueIdentifier>{c954cc57-13ef-4554-b7f1-611f1230d4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{465b69b8-96ac-4f69-bcd3-82dc6392fd85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{a71a7666-5401-48fa-aad3-50a9469a4c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net\TCPIP">
+      <UniqueIdentifier>{a7c42714-a22f-4b1d-b647-288828c2a2d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net\UDPIP">
+      <UniqueIdentifier>{167d3564-85b1-412f-9669-3bc37c8cc2f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net\Session">
+      <UniqueIdentifier>{674ddf66-d4a8-4708-a900-1a01bdbae869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\Materials">
+      <UniqueIdentifier>{92a8dff6-7cc9-497a-8a5a-7bf146a871c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventSystem">
+      <UniqueIdentifier>{b43ea59f-1b65-41b3-9e36-1e2bdd59f4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UISystem">
+      <UniqueIdentifier>{464893e6-e197-44dc-a93b-be484e510c20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\Time.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\stb\stb_image.c">
+      <Filter>ThirdParty\stb</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem\Input.cpp">
+      <Filter>InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem\XboxController.cpp">
+      <Filter>InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSystem\Audio.cpp">
+      <Filter>AudioSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Euler.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\AABB3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Quaternion.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Noise.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Transform.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Engine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\EngineCommon.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix4f.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\BitmapFont.cpp">
+      <Filter>RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\Camera3D.cpp">
+      <Filter>RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\Color.cpp">
+      <Filter>RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\Framebuffer.cpp">
+      <Filter>RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\Glyph.cpp">
+      <Filter>RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\Light.cpp">
+      <Filter>RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\OpenGLExtensions.cpp">
+      <Filter>RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\Renderer.cpp">
+      <Filter>RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSystem\Command.cpp">
+      <Filter>DebugSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSystem\Console.cpp">
+      <Filter>DebugSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSystem\Debugger.cpp">
+      <Filter>DebugSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSystem\DebugRenderCommand.cpp">
+      <Filter>DebugSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSystem\ErrorWarningAssert.cpp">
+      <Filter>DebugSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector2d.cpp">
+      <Filter>Math\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector2f.cpp">
+      <Filter>Math\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector2i.cpp">
+      <Filter>Math\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3d.cpp">
+      <Filter>Math\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3f.cpp">
+      <Filter>Math\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3i.cpp">
+      <Filter>Math\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector4d.cpp">
+      <Filter>Math\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector4f.cpp">
+      <Filter>Math\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\DrawInstruction.cpp">
+      <Filter>RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix4fStack.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\Parsers\XMLParser.cpp">
+      <Filter>ThirdParty\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\EndianUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\AABB2i.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\XMLUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\Skeleton.cpp">
+      <Filter>RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\Motion.cpp">
+      <Filter>RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector4i.cpp">
+      <Filter>Math\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\FBXUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\FileUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\StringUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSystem\Logger.cpp">
+      <Filter>DebugSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads\BQueue.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads\CriticalSection.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\SpriteRenderSystem\SpriteGameRenderer.cpp">
+      <Filter>RenderSystem\SpriteRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\SpriteRenderSystem\Sprite.cpp">
+      <Filter>RenderSystem\SpriteRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\SpriteRenderSystem\SpriteResource.cpp">
+      <Filter>RenderSystem\SpriteRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\SpriteRenderSystem\SpriteLayer.cpp">
+      <Filter>RenderSystem\SpriteRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\ByteQueue.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSystem\BProfiler.cpp">
+      <Filter>DebugSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\ObjectPool.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Callstack.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\MemoryAnalytics.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads\Thread.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\SpriteRenderSystem\Particle.cpp">
+      <Filter>RenderSystem\SpriteRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\SpriteRenderSystem\ParticleEmitter.cpp">
+      <Filter>RenderSystem\SpriteRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\SpriteRenderSystem\ParticleSystem.cpp">
+      <Filter>RenderSystem\SpriteRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\SpriteRenderSystem\ParticleEngine.cpp">
+      <Filter>RenderSystem\SpriteRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads\JobSystem.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads\Job.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\AABB2f.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\MathUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\NetworkSystem.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\NetworkUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\Session\NetMessage.cpp">
+      <Filter>Net\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\Session\NetPacket.cpp">
+      <Filter>Net\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\Session\NetSession.cpp">
+      <Filter>Net\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\BytePacker.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\Session\NetConnection.cpp">
+      <Filter>Net\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\Session\PacketChannel.cpp">
+      <Filter>Net\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Array.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\Material.cpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\Mesh.cpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\MeshBuilder.cpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\MeshRenderer.cpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\Attribute.cpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\VertexDefinition.cpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\Vertex.cpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\Uniform.cpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\Texture.cpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\TextRenderer.cpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\ShaderProgram.cpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\RenderState.cpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem\EventSystem.cpp">
+      <Filter>EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\NamedProperty.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\NamedProperties.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem\SpriteRenderSystem\SpriteSheetResource.cpp" />
+    <ClCompile Include="DebugSystem\BProfilerReport.cpp" />
+    <ClCompile Include="DebugSystem\BProfilerScopedSample.cpp" />
+    <ClCompile Include="DebugSystem\BProfilerSample.cpp" />
+    <ClCompile Include="Net\Session\ConnectionInfo.cpp" />
+    <ClCompile Include="Net\Session\AckBundle.cpp" />
+    <ClCompile Include="Net\Session\NetMessageDefinition.cpp" />
+    <ClCompile Include="RenderSystem\Kerning.cpp" />
+    <ClCompile Include="Utils\MeshBuilderDataUtils.cpp" />
+    <ClCompile Include="UISystem\UIBox.cpp">
+      <Filter>UISystem</Filter>
+    </ClCompile>
+    <ClCompile Include="UISystem\UIButton.cpp">
+      <Filter>UISystem</Filter>
+    </ClCompile>
+    <ClCompile Include="UISystem\UICommon.cpp">
+      <Filter>UISystem</Filter>
+    </ClCompile>
+    <ClCompile Include="UISystem\UIContainer.cpp" />
+    <ClCompile Include="UISystem\UIItem.cpp" />
+    <ClCompile Include="UISystem\UILabel.cpp">
+      <Filter>UISystem</Filter>
+    </ClCompile>
+    <ClCompile Include="UISystem\UIProgressBar.cpp">
+      <Filter>UISystem</Filter>
+    </ClCompile>
+    <ClCompile Include="UISystem\UISprite.cpp" />
+    <ClCompile Include="UISystem\UISystem.cpp">
+      <Filter>UISystem</Filter>
+    </ClCompile>
+    <ClCompile Include="UISystem\UITextField.cpp">
+      <Filter>UISystem</Filter>
+    </ClCompile>
+    <ClCompile Include="UISystem\UIWidget.cpp">
+      <Filter>UISystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSystem\DebugLog.cpp" />
+    <ClCompile Include="Net\Sockets\SocketAddress.cpp" />
+    <ClCompile Include="Net\UDPIP\UDPSock.cpp">
+      <Filter>Net\UDPIP</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\Sockets\UDPSocket.cpp" />
+    <ClCompile Include="Net\Sockets\TCPSocket.cpp" />
+    <ClCompile Include="Net\RCS\RemoteCommandServer.cpp" />
+    <ClCompile Include="Net\RCS\RCSConnection.cpp" />
+    <ClCompile Include="Utils\StreamWriter.cpp" />
+    <ClCompile Include="Utils\StreamReader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Time.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem\Input.hpp">
+      <Filter>InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem\XboxController.hpp">
+      <Filter>InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\stb\stb_image_write.h">
+      <Filter>ThirdParty\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSystem\Audio.hpp">
+      <Filter>AudioSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod.hpp">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_codec.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_dsp.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_errors.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_memoryinfo.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_output.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Euler.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\AABB3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\OpenGL\glext.h">
+      <Filter>ThirdParty\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\OpenGL\wglext.h">
+      <Filter>ThirdParty\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Quaternion.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Noise.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Transform.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\EngineCommon.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix4f.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\BitmapFont.hpp">
+      <Filter>RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\Camera3D.hpp">
+      <Filter>RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\Color.hpp">
+      <Filter>RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\Framebuffer.hpp">
+      <Filter>RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\Glyph.hpp">
+      <Filter>RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\Light.hpp">
+      <Filter>RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\OpenGLExtensions.hpp">
+      <Filter>RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\Renderer.hpp">
+      <Filter>RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSystem\Command.hpp">
+      <Filter>DebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSystem\Console.hpp">
+      <Filter>DebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSystem\Debugger.hpp">
+      <Filter>DebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSystem\DebugRenderCommand.hpp">
+      <Filter>DebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSystem\ErrorWarningAssert.hpp">
+      <Filter>DebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4f.hpp">
+      <Filter>Math\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2d.hpp">
+      <Filter>Math\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2f.hpp">
+      <Filter>Math\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2i.hpp">
+      <Filter>Math\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3d.hpp">
+      <Filter>Math\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3f.hpp">
+      <Filter>Math\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3i.hpp">
+      <Filter>Math\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4d.hpp">
+      <Filter>Math\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\DrawInstruction.hpp">
+      <Filter>RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix4fStack.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\Parsers\XMLParser.hpp">
+      <Filter>ThirdParty\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\EndianUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\AABB2i.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\XMLUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\Skeleton.hpp">
+      <Filter>RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\Motion.hpp">
+      <Filter>RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4i.hpp">
+      <Filter>Math\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FBXUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FileUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\StringUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\BuildConfig.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSystem\Logger.hpp">
+      <Filter>DebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads\BQueue.hpp">
+      <Filter>Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads\CriticalSection.hpp">
+      <Filter>Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\SpriteRenderSystem\SpriteGameRenderer.hpp">
+      <Filter>RenderSystem\SpriteRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\SpriteRenderSystem\Sprite.hpp">
+      <Filter>RenderSystem\SpriteRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\SpriteRenderSystem\SpriteResource.hpp">
+      <Filter>RenderSystem\SpriteRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\SpriteRenderSystem\SpriteLayer.hpp">
+      <Filter>RenderSystem\SpriteRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\ByteQueue.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSystem\BProfiler.hpp">
+      <Filter>DebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\ObjectPool.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Callstack.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MemoryAnalytics.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads\Thread.hpp">
+      <Filter>Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Range.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\SpriteRenderSystem\Particle.hpp">
+      <Filter>RenderSystem\SpriteRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\SpriteRenderSystem\ParticleEmitter.hpp">
+      <Filter>RenderSystem\SpriteRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\SpriteRenderSystem\ParticleSystem.hpp">
+      <Filter>RenderSystem\SpriteRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\SpriteRenderSystem\ParticleEngine.hpp">
+      <Filter>RenderSystem\SpriteRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads\JobSystem.hpp">
+      <Filter>Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads\Job.hpp">
+      <Filter>Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\AABB2f.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\MathUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\NetworkUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\Session\NetMessage.hpp">
+      <Filter>Net\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\Session\NetPacket.hpp">
+      <Filter>Net\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\Session\NetSession.hpp">
+      <Filter>Net\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\BytePacker.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\Session\NetConnection.hpp">
+      <Filter>Net\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\Session\PacketChannel.hpp">
+      <Filter>Net\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Array.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\Material.hpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\Mesh.hpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\MeshBuilder.hpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\MeshRenderer.hpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\Attribute.hpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\VertexDefinition.hpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\Vertex.hpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\Uniform.hpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\Texture.hpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\TextRenderer.hpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\ShaderProgram.hpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\RenderState.hpp">
+      <Filter>RenderSystem\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\EventSystem.hpp">
+      <Filter>EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\NamedProperty.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\NamedProperties.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem\SpriteRenderSystem\SpriteSheetResource.hpp" />
+    <ClInclude Include="DebugSystem\BProfilerReport.hpp" />
+    <ClInclude Include="DebugSystem\BProfilerScopedSample.hpp" />
+    <ClInclude Include="DebugSystem\BProfilerSample.hpp" />
+    <ClInclude Include="Net\Session\ConnectionInfo.hpp" />
+    <ClInclude Include="Net\Session\AckBundle.hpp" />
+    <ClInclude Include="Net\Session\NetMessageDefinition.hpp" />
+    <ClInclude Include="RenderSystem\Kerning.hpp" />
+    <ClInclude Include="Utils\MeshBuilderDataUtils.hpp" />
+    <ClInclude Include="UISystem\UIBox.hpp">
+      <Filter>UISystem</Filter>
+    </ClInclude>
+    <ClInclude Include="UISystem\UIButton.hpp">
+      <Filter>UISystem</Filter>
+    </ClInclude>
+    <ClInclude Include="UISystem\UICommon.hpp">
+      <Filter>UISystem</Filter>
+    </ClInclude>
+    <ClInclude Include="UISystem\UIContainer.hpp" />
+    <ClInclude Include="UISystem\UIItem.hpp" />
+    <ClInclude Include="UISystem\UILabel.hpp">
+      <Filter>UISystem</Filter>
+    </ClInclude>
+    <ClInclude Include="UISystem\UIProgressBar.hpp">
+      <Filter>UISystem</Filter>
+    </ClInclude>
+    <ClInclude Include="UISystem\UISprite.hpp" />
+    <ClInclude Include="UISystem\UISystem.hpp">
+      <Filter>UISystem</Filter>
+    </ClInclude>
+    <ClInclude Include="UISystem\UITextField.hpp">
+      <Filter>UISystem</Filter>
+    </ClInclude>
+    <ClInclude Include="UISystem\UIWidget.hpp">
+      <Filter>UISystem</Filter>
+    </ClInclude>
+    <ClInclude Include="UISystem\WidgetProperty.hpp">
+      <Filter>UISystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSystem\DebugLog.hpp" />
+    <ClInclude Include="Net\Sockets\SocketAddress.hpp" />
+    <ClInclude Include="Net\UDPIP\UDPSock.hpp">
+      <Filter>Net\UDPIP</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\Sockets\UDPSocket.hpp" />
+    <ClInclude Include="Net\Sockets\TCPSocket.hpp" />
+    <ClInclude Include="Net\RCS\RemoteCommandServer.hpp" />
+    <ClInclude Include="Net\RCS\RCSConnection.hpp" />
+    <ClInclude Include="Utils\StreamWriter.hpp" />
+    <ClInclude Include="Utils\StreamReader.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\ThirdParty\fmod\fmodex_vc.lib">
+      <Filter>ThirdParty\fmod</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Net\NetworkSystem.hpp">
+      <Filter>Net</Filter>
+    </None>
+  </ItemGroup>
+</Project>

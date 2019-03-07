@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<SpriteResources>
+	<SpriteResource id="circle"		filename="Data/Sprites/circle.png"/>
+	<SpriteResource id="ring"		filename="Data/Sprites/ring.png"/>
+	<SpriteResource id="triangle"	filename="Data/Sprites/triangle.png"/>
+	<SpriteResource id="square"		filename="Data/Sprites/square.png"/>
+	<SpriteResource id="grid"		filename="Data/Sprites/background_grid.png"/>
+	<SpriteResource id="exp"		filename="Data/Sprites/exp_orb.png"/>
+
+	<SpriteSheetResource id="thesisSmallSprites" filename="Data/Sprites/ThesisSpriteSheet.png" size="16,16"/>
+	<SpriteResource id="nothing"		index="254" spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="error"			index="255" spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="shipFighter"	index="0"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="shipWizard"		index="1"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="shipRogue"		index="2"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="emoteHappy"		index="11"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="emoteSad"		index="12"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="emoteAngry"		index="13"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="emoteWhoops"	index="14"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="emoteHelp"		index="15"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="shipCultist"	index="9"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="weaponPhaser"	index="16"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="weaponRocket"	index="17"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="weaponDrill"	index="18"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="weaponAcid"		index="19"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="weaponZapper"	index="20"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="weaponBomber"	index="21"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="weaponFreeze"	index="22"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="weaponPhaserIcon"	index="23"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="weaponRocketIcon"	index="24"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="weaponDrillIcon"	index="25"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="weaponAcidIcon"		index="26"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="weaponZapperIcon"	index="27"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="weaponBomberIcon"	index="28"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="weaponFreezeIcon"	index="29"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="bulletPhaser"	index="32"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="bulletRocket"	index="33"	spriteSheet="thesisSmallSprites"/>
+	<!--<SpriteResource id="bulletDrill"index="34"	spriteSheet="thesisSmallSprites"/>-->
+	<SpriteResource id="bulletAcid"		index="35"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="bulletZapper"	index="36"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="bulletBomb"		index="37"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="bulletFreeze"	index="38"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="heart"			index="48"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="shield"			index="49"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="energy"			index="50"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="agility"		index="51"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="mapIcon"		index="52"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="targeting"		index="53"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="lockedOn"		index="54"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="cubes"			index="55"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="enemyArcher"	index="64"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="allyGuard"		index="65"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="asteroid1"		index="80"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="asteroid2"		index="81"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="asteroid3"		index="82"	spriteSheet="thesisSmallSprites"/>
+	<SpriteResource id="asteroid4"		index="83"	spriteSheet="thesisSmallSprites"/>
+	
+	<SpriteSheetResource id="thesisLargeSprites" filename="Data/Sprites/ThesisSpriteSheet.png" size="8,8"/>
+	<SpriteResource id="enemyBossRed"		index="56" spriteSheet="thesisLargeSprites"/>
+	<SpriteResource id="enemyBossCthulhu"	index="57" spriteSheet="thesisLargeSprites"/>
+	<SpriteResource id="crystal"			index="58" spriteSheet="thesisLargeSprites"/>
+</SpriteResources>
