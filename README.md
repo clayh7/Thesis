@@ -17,6 +17,7 @@ Game features:
 - Save world game state
 - Player profiles
 - Leveling / Stats / Combat
+- Emote communication
 
 # How to Play
 Start the game
