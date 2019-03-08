@@ -1,8 +1,12 @@
 # Temporary Output
 Temporary/
 
-# Log Files
+# Log files
+Logs/
 *.Log.txt
+
+# World saved files
+*.World.xml
 
 # Prerequisites
 *.d

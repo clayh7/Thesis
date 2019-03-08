@@ -242,7 +242,7 @@ void MemoryAnalytics::MemoryAnalyticsShutDown( )
 #endif
 	if( m_startupAllocations != m_numAllocations )
 	{
-		ASSERT_RECOVERABLE( false, "Memory Leaks" );
+		//ASSERT_RECOVERABLE( false, "Memory Leaks" );
 	}
 	DebuggerPrintf( "\n//=============================================================================================\n" );
 	DebuggerPrintf( "Shut Down \n" );
