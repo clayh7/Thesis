@@ -1,3 +1,7 @@
+# Always changes
+*.suo
+*.VC.db
+
 # Temporary Output
 Temporary/
 
