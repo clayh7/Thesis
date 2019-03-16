@@ -1,5 +1,5 @@
 # Thesis
-I made an networked MMO ARPG for my thesis.
+I set out to craft a MMO ARPG from scratch with my own custom C++ engine in 8 months.
 All of the code, art, and design was made by me.
 
 Networking System Features:
