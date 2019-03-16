@@ -1,3 +1,7 @@
+Link to paper: [here](https://drive.google.com/open?id=1vbofrBw5weuCEwZQOMYIOjeT1exQaEEi)
+
+Link to presentation: [here](https://drive.google.com/open?id=0ByrVEUyYZGdLWXhIenpndmQwRTA)
+
 # Thesis
 I set out to craft a MMO ARPG from scratch with my own custom C++ engine in 8 months.
 All of the code, art, and design was made by me.
@@ -68,10 +72,6 @@ Press "Join Server" to connect to the typed in IP Address (to player with others
 [Click/Drag] interact with the UI 
 
 # Other Resources
-Link to presentation: [here](https://drive.google.com/open?id=0ByrVEUyYZGdLWXhIenpndmQwRTA)
-
-Link to paper: [here](https://drive.google.com/open?id=1vbofrBw5weuCEwZQOMYIOjeT1exQaEEi)
-
 [Fundamental Multiplayer RPG Math](https://www.gdcvault.com/play/1015037/Fundamental-Multiplayer-RPG)
 
 [Gaffer on Games](https://gafferongames.com/tags/networking/)
