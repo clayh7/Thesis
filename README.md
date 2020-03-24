@@ -3,7 +3,7 @@ Link to paper: [here](https://drive.google.com/open?id=1vbofrBw5weuCEwZQOMYIOjeT
 Link to presentation: [here](https://drive.google.com/open?id=0ByrVEUyYZGdLWXhIenpndmQwRTA)
 
 # Thesis
-I set out to craft a MMO ARPG from scratch with my own custom C++ engine in 8 months.
+I set out to craft a Networked RPG from scratch with my own custom C++ engine in 8 months.
 All of the code, art, and design was made by me.
 
 Networking System Features:
